@@ -1,1 +1,1 @@
-# Github page for maintaining joonholeegroup.com
+# Github page for maintaining the Lee group webpage.
