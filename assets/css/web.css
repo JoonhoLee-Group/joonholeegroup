@@ -74,7 +74,7 @@
     margin: 0vw;
     margin-top: 2vw;
     font-family: 'Kaisei Tokumin', serif;
-    font-size:calc(10px + 0.8vw);
+    font-size:calc(10px + 1vw);
     display: flex;
     padding:0px;
     justify-content: center;
@@ -174,5 +174,5 @@
 }
 .intextup h1{
     font-family: 'Kaisei Tokumin', serif;
-    font-size:calc(11px + 0.9vw);
+    font-size:calc(12px + 1vw);
 }
