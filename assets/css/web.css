@@ -179,9 +179,9 @@
 
 .toggle{
     position: absolute;
-    top: 10px;
+    bottom: 10px;
     right: 10px;
-    background-image: linear-gradient(30deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgb(233, 143, 143,0.9));
+    background-image: linear-gradient(-215deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(244, 206, 206, 0.9));
     border-color: black;
     padding-left: 5px;
     padding-right: 5px;
@@ -197,7 +197,8 @@
     -ms-transition: 0.5s;
     margin: auto;
     text-align: center;
-    font-family: 'Rubik', serif;
+    font-family: 'Lato', serif;
+    font-size:calc(10px + 0.3vw);
     user-select: none
 }
 .toggle:hover{
