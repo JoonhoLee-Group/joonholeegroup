@@ -6,7 +6,7 @@
     margin: 0 auto;
     width: 1200px;
     max-width: 90vw;
-    z-index: 2;
+    z-index: 1;
     height:auto;
     position: relative;
 }
@@ -16,7 +16,7 @@
     text-decoration-line: underline;
     text-decoration-style: dashed;
     text-decoration-thickness: 2pt;
-    z-index: 3;
+    z-index: 2;
 }
 .intpic{
     margin:0px;
