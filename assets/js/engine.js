@@ -35,5 +35,26 @@
             document.getElementById("ex".concat(x)).classList.toggle("expand");
             document.getElementById('arrowcont'.concat(x)).classList.toggle('arrowref');
         }
-
-    
+        function applettoggle(x){
+            document.getElementById("GIc").classList.add("hidepic");
+            document.getElementById("UIc").classList.add("hidepic");
+            document.getElementById("IIc").classList.add("hidepic");
+            document.getElementById("BIc").classList.add("hidepic");
+            document.getElementById("CIc").classList.add("hidepic");
+            document.getElementById(x.concat("Ic")).classList.remove("hidepic");
+            const list = document.querySelectorAll(".main2");
+            for (const element of list) {
+            element.classList.add('hideapplet');
+            }
+            const list2 = document.querySelectorAll(".".concat(x));
+            for (const element of list2) {
+            element.classList.toggle('hideapplet');
+            }
+        }
+        function toggleicon(x){
+            document.getElementById(x.concat("Ic")).classList.toggle("hidepic");
+            const list2 = document.querySelectorAll(".".concat(x));
+            for (const element of list2) {
+            element.classList.toggle('hideapplet');
+            }
+        }
