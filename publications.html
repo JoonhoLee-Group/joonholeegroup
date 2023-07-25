@@ -56,11 +56,14 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGCCEGX4J1"></script>
 <script>
+window.addEventListener('load', function () {
+    applettoggle("I")
+})
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-LGCCEGX4J1');
+  gtag('config', 'G-LGCCEGX4J1');;
 </script>
 </head>
 
@@ -76,10 +79,12 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html" style="font-size: 16px;">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="News.html" style="font-size: 16px;">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html" style="font-size: 16px;">About Joonho</a></li>
                         <li class="nav-item"><a class="nav-link" href="members.html" style="font-size: 16px;">Members</a></li>
                         <li class="nav-item"><a class="nav-link" href="research.html" style="font-size: 16px;">Research</a></li>
                         <li class="nav-item"><a class="nav-link" href="publications.html" style="font-size: 16px;">Publications</a></li>
+                        
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item"></li>
@@ -95,65 +100,45 @@
             <p class="fs-4" style="text-align: center;font-family: 'Anek Gujarati', sans-serif;"><br>You can find Joonho's updated list of publications on his <a href="https://scholar.google.com/citations?hl=en&amp;user=rKbMdkQAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank">Google scholar page</a>.&nbsp; (* denotes equal contribution)</p>
         </div>
         <div class="choices">
-        <div class="choicesicons">
-            <img src='assets/img/U.png' class="choicesiconspic" id="UIc" onclick='toggleicon("U")'>
-            
-    </div>
-        <div class="choicesicons">
-            <img src='assets/img/B.png' class="choicesiconspic" id="BIc" onclick='toggleicon("B")'>
-            
-            </div>
+        
+        
     
-        <div class="choicesicons">
-            <img src='assets/img/C.png' class="choicesiconspic" id="CIc" onclick='toggleicon("C")'>
-            
-            </div>
-        <div class="choicesicons">
-            <img src='assets/img/GQ.png' class="choicesiconspic" id="GIc" onclick='toggleicon("G")'>
-            
-            
-        </div>
+        
+        
 
         <div class="choicesicons">
             <img src='assets/img/I.png' class="choicesiconspic" id="IIc" onclick='toggleicon("I")'>
             
         </div>
-
+        <div class="choicesicons">
+            <img src='assets/img/GQ.png' class="choicesiconspic" id="GIc" onclick='toggleicon("G")'>
+            
+            
+        </div>
+        <div class="choicesicons">
+            <img src='assets/img/C.png' class="choicesiconspic" id="CIc" onclick='toggleicon("C")'>
+            
+            </div>
+            <div class="choicesicons">
+                <img src='assets/img/B.png' class="choicesiconspic" id="BIc" onclick='toggleicon("B")'>
+                
+                </div>
+                <div class="choicesicons">
+            <img src='assets/img/U.png' class="choicesiconspic" id="UIc" onclick='toggleicon("U")'>
+            
+    </div>
         </div>
         
     </section>
     <section></section>
     <section>
 
-        <div class='main2 G'>
-            <div class='intro'>
-                <div class='intpic' id='fpic'><img src='assets/img/pub/70.png' class='picture'></div>
-                <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (70)
-                        T. E. O’Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins,
-                        O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, et al. 
-                        <h1>
-                            “Purification-based
-                            quantum error mitigation of pair-correlated electron simulations”. 
-                        </h1>
-                        <a href='https://arxiv.org/abs/2210.10799' class='a2'> 
-                            arXiv, 2022.
-                            eprint: 2210.10799.
-                        </a>
-                    
-                    </div>
-                    </div> 
-            </div>
-            <div class="toggle"  onclick='applettoggle("G")'>
-                <img src='assets/img/GQ.png' class='applet'>
-            </div>
-        </div>
 
         <div class='main2 C'>
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/69.png' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (69)
+                    <div class='intextup' id='ab'> (70)
                         N. C. Rubin, D. W. Berry, F. D. Malone, A. F. White, T. Khattar, A. E.
 Deprince III, S. Sicolo, K¨uhn, M. Kaicher, J. Lee, et al. 
                         <h1>
@@ -172,55 +157,11 @@ simulation of materials using Bloch orbitals”.
             
         </div>
 
-        <div class='main2 I'>
-            <div class='intro'>
-                <div class='intpic' id='fpic'><img src='assets/img/pub/68.png' class='picture'></div>
-                <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (68)
-                        J. Lee, D. R. Reichman, R. Babbush, N. C. Rubin, F. D. Malone, B. O’Gorman,
-and W. J. Huggins. 
-                        <h1>
-                            “Response to ”Exponential challenges in unbiasing quantum
-Monte Carlo algorithms with quantum computers”. 
-                        </h1>
-                        <a href='https://arxiv.org/abs/2207.13776' class='a2'> 
-                            arXiv, 2022. eprint: 2207.
-13776.
-                        </a>
-                    
-                    </div>
-                    </div> <div class="toggle"  onclick='applettoggle("I")'>
-                        <img src='assets/img/I.png' class='applet'>
-                    </div>
-            </div>
-        </div>
-
-        <div class='main2 C'>
-            <div class='intro'>
-                <div class='intpic' id='fpic'><img src='assets/img/pub/67.png' class='picture'></div>
-                <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (67)
-                        K. Wan, W. J. Huggins, J. Lee, and R. Babbush. 
-                        <h1>
-                            “Matchgate Shadows for
-                            Fermionic Quantum Simulation”. 
-                        </h1>
-                        <a href='https://arxiv.org/abs/2207.13723' class='a2'> 
-                            arXiv, 2022. eprint: 2207.13723.
-                        </a>
-                    
-                    </div>
-                    </div> <div class="toggle"  onclick='applettoggle("C")'>
-                        <img src='assets/img/C.png' class='applet'>
-                    </div>
-            </div>
-        </div>
-
         <div class='main2 C'>
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/66.png' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (66)
+                    <div class='intextup' id='ab'> (69)
                         A. Rettig, J. Lee, and M. Head-Gordon. 
                         <h1>
                             “Even Faster Exact Exchange for
@@ -237,11 +178,11 @@ Monte Carlo algorithms with quantum computers”.
             </div>
         </div>
 
-        <div class='main2'>
-            <div class='intro G'>
+        <div class='main2 G'>
+            <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/65.png' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (65)
+                    <div class='intextup' id='ab'> (68)
                         A. Morvan, B. Villalonga, X. Mi, S. Mandr´a, A. Bengtsson, P. V. Klimov, Z.
 Chen, S. Hong, C. Erickson, I. K. Drozdov, et al. 
                         <h1>
@@ -263,7 +204,7 @@ Chen, S. Hong, C. Erickson, I. K. Drozdov, et al.
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/64.png' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (64)
+                    <div class='intextup' id='ab'> (67)
                         X. Mi, A. A. Michailidis, S. Shabani, K. C. Miao, P. V. Klimov, J. Lloyd, E.
 Rosenberg, R. Acharya, I. Aleiner, T. I. Andersen, et al. 
                         <h1>
@@ -286,7 +227,7 @@ Rosenberg, R. Acharya, I. Aleiner, T. I. Andersen, et al.
                 <div class='intpic' id='fpic'><img src='assets/img/pub/63.png' class='picture'></div>
                 <div class='intext' id='abcont'>
                     <div class='intextup' id='ab'>
-                        (63) J. C. Hoke, M. Ippoliti, D. Abanin, R. Acharya, M. Ansmann, F. Arute, K.
+                        (66) J. C. Hoke, M. Ippoliti, D. Abanin, R. Acharya, M. Ansmann, F. Arute, K.
 Arya, A. Asfaw, J. Atalaya, J. C. Bardin, et al. 
                         <h1>
                             “Quantum information phases
@@ -308,7 +249,7 @@ Arya, A. Asfaw, J. Atalaya, J. C. Bardin, et al.
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/62.webp' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (62)
+                    <div class='intextup' id='ab'> (65)
                         T. I. Andersen, Y. D. Lensky, K. Kechedzhi, I. Drozdov, A. Bengtsson, S. Hong,
 A. Morvan, X. Mi, A. Opremcak, R. Acharya, et al. 
                         <h1>
@@ -330,12 +271,12 @@ A. Morvan, X. Mi, A. Opremcak, R. Acharya, et al.
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/61.webp' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (61)
+                    <div class='intextup' id='ab'> (64)
                         R. Babbush, W. J. Huggins, D. W. Berry, S. F. Ung, A. Zhao, D. R. Reichman,
 H. Neven, A. D. Baczewski, and J. Lee. 
                         <h1>
                             “Quantum simulation of exact electron
-dynamics can be more ecient than classical mean-field methods”. 
+dynamics can be more efficient than classical mean-field methods”. 
                         </h1>
                         <a href='https://www.nature.com/articles/s41467-023-39024-0' class='a2'> 
                             Nat. Comm.
@@ -353,7 +294,7 @@ dynamics can be more ecient than classical mean-field methods”.
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/60.gif' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (60)
+                    <div class='intextup' id='ab'> (63)
                         A. Mandal, D. Xu, A. Mahajan, J. Lee, M. Delor, and D. R. Reichman. 
                         <h1>
                             “Microscopic Theory of Multimode Polariton Dispersion in Multilayered Materials”.
@@ -369,12 +310,98 @@ dynamics can be more ecient than classical mean-field methods”.
                     </div>
             </div>
         </div>
+        <div class='main2 C'>
+            <div class='intro'>
+                <div class='intpic' id='fpic'><img src='assets/img/pub/57.webp' class='picture'></div>
+                <div class='intext' id='abcont'>
+                    <div class='intextup' id='ab'> (62)
+                        S. Lee, J. Lee, H. Zhai, Y. Tong, A. M. Dalzell, A. Kumar, P. Helms, J. Gray,
+Z.-H. Cui, W. Liu, et al. 
+                        <h1>
+                            “Evaluating the evidence for exponential quantum
+advantage in ground-state quantum chemistry”. 
+                        </h1>
+                        <a href='https://www.nature.com/articles/s41467-023-37587-6' class='a2'> 
+                            Nat. Commun. 2023, 14, 1–7.
+                        </a>
+                    
+                    </div>
+                    </div> <div class="toggle"  onclick='applettoggle("C")'>
+                        <img src='assets/img/C.png' class='applet'>
+                    </div>
+            </div>
+        </div>
+        <div class='main2 G'>
+            <div class='intro'>
+                <div class='intpic' id='fpic'><img src='assets/img/pub/70.png' class='picture'></div>
+                <div class='intext' id='abcont'>
+                    <div class='intextup' id='ab'> (61)
+                        T. E. O’Brien, G. Anselmetti, F. Gkritsis, V. E. Elfving, S. Polla, W. J. Huggins,
+                        O. Oumarou, K. Kechedzhi, D. Abanin, R. Acharya, et al. 
+                        <h1>
+                            “Purification-based
+                            quantum error mitigation of pair-correlated electron simulations”. 
+                        </h1>
+                        <a href='https://arxiv.org/abs/2210.10799' class='a2'> 
+                            arXiv, 2022.
+                            eprint: 2210.10799.
+                        </a>
+                    
+                    </div>
+                    </div> 
+            </div>
+            <div class="toggle"  onclick='applettoggle("G")'>
+                <img src='assets/img/GQ.png' class='applet'>
+            </div>
+        </div>
+        <div class='main2 I'>
+            <div class='intro'>
+                <div class='intpic' id='fpic'><img src='assets/img/pub/68.png' class='picture'></div>
+                <div class='intext' id='abcont'>
+                    <div class='intextup' id='ab'> (60)
+                        J. Lee, D. R. Reichman, R. Babbush, N. C. Rubin, F. D. Malone, B. O’Gorman,
+and W. J. Huggins. 
+                        <h1>
+                            “Response to ”Exponential challenges in unbiasing quantum
+Monte Carlo algorithms with quantum computers”.” 
+                        </h1>
+                        <a href='https://arxiv.org/abs/2207.13776' class='a2'> 
+                            arXiv, 2022. eprint: 2207.
+13776.
+                        </a>
+                    
+                    </div>
+                    </div> <div class="toggle" id='Iclick' onclick='applettoggle("I")'>
+                        <img src='assets/img/I.png' class='applet'>
+                    </div>
+            </div>
+        </div>
 
+        <div class='main2 C'>
+            <div class='intro'>
+                <div class='intpic' id='fpic'><img src='assets/img/pub/67.png' class='picture'></div>
+                <div class='intext' id='abcont'>
+                    <div class='intextup' id='ab'> (59)
+                        K. Wan, W. J. Huggins, J. Lee, and R. Babbush. 
+                        <h1>
+                            “Matchgate Shadows for
+                            Fermionic Quantum Simulation”. 
+                        </h1>
+                        <a href='https://arxiv.org/abs/2207.13723' class='a2'> 
+                            arXiv, 2022. eprint: 2207.13723.
+                        </a>
+                    
+                    </div>
+                    </div> <div class="toggle"  onclick='applettoggle("C")'>
+                        <img src='assets/img/C.png' class='applet'>
+                    </div>
+            </div>
+        </div>
         <div class='main2 C'>
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/59.png' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (59)
+                    <div class='intextup' id='ab'> (58)
                         T. E. O’Brien, M. Streif, N. C. Rubin, R. Santagati, Y. Su, W. J. Huggins, J. J.
 Goings, N. Moll, E. Kyoseva, M. Degroote, et al. 
                         <h1>
@@ -395,7 +422,7 @@ Goings, N. Moll, E. Kyoseva, M. Degroote, et al.
             <div class='intro'>
                 <div class='intpic' id='fpic'><img src='assets/img/pub/58.gif' class='picture'></div>
                 <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (58)
+                    <div class='intextup' id='ab'> (57)
                         M. S. Chen, J. Lee, H.-Z. Ye, T. C. Berkelbach, D. R. Reichman, and T. E.
 Markland. 
                         <h1>
@@ -414,28 +441,6 @@ CCSD, and CCSD(T) Accuracy”.
             </div>
         </div>
        
-
-        <div class='main2 C'>
-            <div class='intro'>
-                <div class='intpic' id='fpic'><img src='assets/img/pub/57.webp' class='picture'></div>
-                <div class='intext' id='abcont'>
-                    <div class='intextup' id='ab'> (57)
-                        S. Lee, J. Lee, H. Zhai, Y. Tong, A. M. Dalzell, A. Kumar, P. Helms, J. Gray,
-Z.-H. Cui, W. Liu, et al. 
-                        <h1>
-                            “Evaluating the evidence for exponential quantum
-advantage in ground-state quantum chemistry”. 
-                        </h1>
-                        <a href='https://www.nature.com/articles/s41467-023-37587-6' class='a2'> 
-                            Nat. Commun. 2023, 14, 1–7.
-                        </a>
-                    
-                    </div>
-                    </div> <div class="toggle"  onclick='applettoggle("C")'>
-                        <img src='assets/img/C.png' class='applet'>
-                    </div>
-            </div>
-        </div>
 
 
         <div class='main2 B'>
@@ -1535,8 +1540,8 @@ K. B. Whaley. <h1>“Molecular Mechanics Simulations and Improved Tight-binding
                 <div class='intext' id='abcont'>
                     <div class='intextup' id='ab'> (3) M. E. Fornace*, J. Lee*, K. Miyamoto*, F. R. Manby, and T. F. Miller. <h1>“Embedded
                         Mean-Field Theory”.</h1> <a href='https://pubs.acs.org/doi/10.1021/ct5011032' class='a2'> J. Chem. Theory Comput. 2015, 11, 568–580.</a></div>
-                    </div><div class="toggle">
-                        <img src='assets/img/CT.png' class='applet'>
+                    </div><div class="toggle"  onclick='applettoggle("U")'>
+                        <img src='assets/img/U.png' class='applet'>
                     </div>
             </div>
         </div>
