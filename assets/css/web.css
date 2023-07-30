@@ -223,7 +223,7 @@
     padding-right:8%;
     padding-left:8%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 40px;
     font-family: Lato,sans-serif;
     font-style: italic;
     font-weight: 900;
@@ -416,7 +416,7 @@
     margin: auto;
     text-align: center;
     font-family: 'Anek Gujarati', serif;
-    font-size:calc(15px + 0.4vw);
+    font-size:calc(20px + 0.7vw);
     user-select: none;
     
 }
