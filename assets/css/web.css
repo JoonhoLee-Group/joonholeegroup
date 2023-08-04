@@ -174,7 +174,7 @@
     padding-left:0%;
     padding-bottom:2%;
     width:68%;
-    background-image: linear-gradient(45deg, white, whitesmoke);
+    background-image: linear-gradient(45deg, white, white);
     min-width: 300px;
     flex-basis: 68%;
     flex-grow: 0.8;
@@ -214,7 +214,7 @@
     height: auto;
     padding-right:8%;
     padding-left:8%;
-    text-align: center;
+    text-align: left;
     
 }
 .intextupnewsmain{
@@ -365,6 +365,7 @@
 .intextup h1{
     font-family: 'Kaisei Tokumin', serif;
     font-size:calc(20px + 0.7vw);
+    display: inline;
 }
 
 .toggle{
