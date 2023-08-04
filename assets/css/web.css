@@ -157,7 +157,6 @@
   flex-basis: 30%;
   flex-grow: 0.8;
   padding:1%;
-  display:none
 }
 .picture{
     height:auto;
@@ -214,7 +213,7 @@
     height: auto;
     padding-right:8%;
     padding-left:8%;
-    text-align: left;
+    text-align: right;
     
 }
 .intextupnewsmain{
