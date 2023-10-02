@@ -5,8 +5,8 @@
 <title></title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="assets/img/icon.png">
-    <link rel="stylesheet" href="assets/css/web.css">
+<link rel="shortcut icon" href="../../assets/img/icon.png">
+    <link rel="stylesheet" href="../../assets/css/web.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
@@ -46,12 +46,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Castoro&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+Display&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/Application-Form.css">
-    <link rel="stylesheet" href="assets/css/Features-Large-Icons.css">
-    <link rel="stylesheet" href="assets/css/Hero-Clean-Reverse.css">
+    <link rel="stylesheet" href="../../assets/css/Application-Form.css">
+    <link rel="stylesheet" href="../../assets/css/Features-Large-Icons.css">
+    <link rel="stylesheet" href="../../assets/css/Hero-Clean-Reverse.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="../../assets/css/untitled.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
@@ -124,6 +124,7 @@ body {
 	background: rgba(10, 10, 10, 0.8);
 	text-align: center;
 	margin: auto;
+    z-index: 1000;
 
 }
 
@@ -214,8 +215,9 @@ div.vertical {
         const list = document.querySelectorAll(".encls");
             for (const element of list) {
                 x= element.innerText
-                element.innerHTML= dec(x)
-        }
+                element.innerHTML= dec(x)   
+            }
+        document.getElementById("link1").href = dec("53616c7465645f5f5c529250c6f0911e5a65d9959b5ebce13ea3a0472ee9b0f68e6f80e9ce23668a943d932b6dbd6714c2bebd3c97fd0aa540b05506e7f801d7890fe372a5ebed31733823bed07177bedd4f1d268dcc1b7382cca1cff21cf966947952d4b7ed683bd4646c8abec3f1a15879e24c6621079b82f66d1a7584ee77")
         document.getElementById("loginbox").classList.add("hidepic")
         
     }
@@ -223,13 +225,25 @@ div.vertical {
     </script>
 
 	<script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
-    <span class="encls">
+    <div class='main2 I'>
+        <div class='intro'>
+            
+            <div class='intext' id='abcont'>
+                <div class='intextup' id='ab'>
+                    Joonho Lee Group Resource Page
+                
+                </div>
+                </div> 
+        </div>
+    </div>
+    <div class='main2'><div class="encls intro LG123@Harvard">
         53616c7465645f5f1254d2c645ed83923eef399ed2b88c255863abfd52449a3805875d0811116297de8926355212a53531b47b58873370c8d68e2b782ba2cb38662c55ce5318219df91bc0e0a223e366c828a0ac1830376e4e79ac9e50032f0a
-    </span>
-    <hr>
-    <span class="encls">
+    </div></div>
+    
+    <div class='main2'>
+    <a href="." class="encls enlink" id="link1">
         53616c7465645f5f5c529250c6f0911e5a65d9959b5ebce13ea3a0472ee9b0f68e6f80e9ce23668a943d932b6dbd6714c2bebd3c97fd0aa540b05506e7f801d7890fe372a5ebed31733823bed07177bedd4f1d268dcc1b7382cca1cff21cf966947952d4b7ed683bd4646c8abec3f1a15879e24c6621079b82f66d1a7584ee77
-    </span>
-    <hr>
+    </a>
+</div>
 </body>
 </html>
