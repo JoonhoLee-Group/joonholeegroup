@@ -614,3 +614,19 @@ input[type=checkbox]{
  .iframel{
     filter: invert(.9) saturate(0.5) hue-rotate(145deg);
  }
+
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
