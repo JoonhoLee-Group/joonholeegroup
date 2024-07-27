@@ -214,7 +214,7 @@
     padding-right:8%;
     padding-left:8%;
     text-align: right;
-    
+    font-size: calc(16px + 0.7vw);
 }
 .intextupnewsmain{
     margin:auto;
