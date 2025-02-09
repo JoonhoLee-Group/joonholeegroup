@@ -5,6 +5,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f4f4f4;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            padding: 10px;
+        }
+        .grid-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .caption {
+            margin-top: 12px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
 
 <link rel="shortcut icon" href="assets/img/icon.png">
     <meta name="description" content="Reach out to Joonho to join our team!">
@@ -101,26 +140,38 @@
     </section>
     <section>
         <div class="container py-4 py-xl-5">
-            <div class='newscont'>
-                <div class='intro'>
-                    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
-                    <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
-                    data-link="https://photos.app.goo.gl/hbqr1Fab87xST2cr7"
-                    data-title="Lee Group"
-                    data-description="8 new items added to shared album">
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMms7mO4V-47e9ChiuMCNUG-7GqViImn-gE7lLcIOMEwhZrblffR0Jh9MptNc0lZNxAL4tKsBWQ_RQQxY2SqKO2Szr6L6RrXE2HsQtN3yNE_TVKsQ=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczNxTpXoZ1wRiH1iNZOnL3UOuAKSmm7Nb-g2DPluRHEPvLzLOKH0mKGiBtZKecp_P751eEwDhAbjQ3XWuSmrSjSJzlpGtX_YtTfoByGcMI9gOpWgnw=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczN9uOi-KmLSMmv36vu3yfpnrletAv-_AkNo3J0Xk_rKKAP0sz6BkzMfj9j5ShQFEyfURVyMo2r0bVVwgezg0wtvt9sa3lFV_hAyGGGWx7f_q2Qgfw=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczO5Wdv8RCLvsoYAQSoaSs3Yv1KJjSE6TDn5AJVQd1O9vTuT-sgRGK9SIOfgZRlOCtHoqbNdJ2pZypF5vZScoW_E94-lxWLFMiSQHHziG7IT5yxiiA=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMlKe8rMZzvzP3qn6yKVTs61jncuCtDUWgiEpOg4lmNrICihlbLxOkQdHPS54_6WBwNpR4m2OsAFPpuH6XqGV4moEWNpoCLc5j4sbk9fW65eAskPw=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczPVRKdQ4O9HUiWQSD1gUZasEySygeBs9lAbRXLi7IhwxpDh4hnOjg9PiUzig9FcoUOQxX0xkxz0QeSBRHIRCr9sE7CfvFFhMhLYrPfp9SrctUrYv7E=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczPIRYlGEHLGBeEFmkoB1mu7onnk93XHRUD9isNNnvzv4gqSn0TjkSX3Ji2jXWq-bP_5Y1HspmOeX24ApqWIZ-ZP_nIE_DJn2vlysb3sTbJfOa9a-aU=w1920-h1080"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczOUMC54eAWm77UbTf1MUjMGzBcbTpHDCR8JpZBwcUEen6cUzXXzXFNZ4jFfXshRVgZIIdB0oe5g0NIJzx4dQrpVbywf5KjbNqIXRrIPJ_sFQLn0P9x7Ro4c7j976z2dbeJhNA7UUm6da69bsRQ4kCE=w1884-h1414-s-no-gm?authuser=2"></object>
-                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMZF4oG4sRo7E-YI3DqsI4ZzHa8VzfuHtSogSDcpWxJQ-8Vkqp4-_GdwSaIWueqqQcUhppbKlpp3MwQvD40WOUTcKeDku1jeFt9mP4Vc7WAAxwCEf1rMKv_LMGY1fQ-FQRBx1hCCK49Kwul1fZcilY=w1061-h1414-s-no-gm?authuser=2"></object>
-                    <!-- <object data="https://lh3.googleusercontent.com/pw/AP1GczMJAxR-KflW4zZ6llaOBwCQLd5_GWi-Kw68lFlsbhMOxpfxu1-MjfJ1jQXvQozZbKJXuozWpjhKzqLpftL2lKjmfQl35BSjx21LUd5rVF4kdLcoR9U=w1920-h1080"></object> -->
-                  </div>
-
-
+            <div class='grid-container'>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/retreat_dec2024.jpg" alt="Photo 8">
+                    <div class="caption">Group Retreat, Dec 2024</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/grpphoto_aug2024.jpg" alt="Photo 7">
+                    <div class="caption">Group Photo, Aug 2024</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/eclipse.jpg" alt="Photo 6">
+                    <div class="caption">Solar Eclipse, Apr 2024</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/hieu_qual_lunch.jpg" alt="Photo 5">
+                    <div class="caption">Group Lunch, Apr 2024</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/2023_Christmas.jpg" alt="Photo 4">
+                    <div class="caption">Christmas Party, Dec 2023</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/2023_thanksgiving.jpg" alt="Photo 3">
+                    <div class="caption">Thanksgiving, Nov 2023</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/pumpkin.jpg" alt="Photo 2">
+                    <div class="caption">CCB Pumpkin Carving, Sep 2023</div>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/gallery/grpphoto_aug2023.jpg" alt="Photo 1">
+                    <div class="caption">Group Photo, Aug 2023</div>
                 </div>
             </div>
         </div>    
@@ -150,3 +201,21 @@
 </body>
 
 </html>
+
+                <!-- <div class='intro'>
+                    <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+                    <div class="pa-gallery-player-widget" style="width:100%; height:480px; display:none;"
+                    data-link="https://photos.app.goo.gl/hbqr1Fab87xST2cr7"
+                    data-title="Lee Group"
+                    data-description="8 new items added to shared album">
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMms7mO4V-47e9ChiuMCNUG-7GqViImn-gE7lLcIOMEwhZrblffR0Jh9MptNc0lZNxAL4tKsBWQ_RQQxY2SqKO2Szr6L6RrXE2HsQtN3yNE_TVKsQ=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczNxTpXoZ1wRiH1iNZOnL3UOuAKSmm7Nb-g2DPluRHEPvLzLOKH0mKGiBtZKecp_P751eEwDhAbjQ3XWuSmrSjSJzlpGtX_YtTfoByGcMI9gOpWgnw=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczN9uOi-KmLSMmv36vu3yfpnrletAv-_AkNo3J0Xk_rKKAP0sz6BkzMfj9j5ShQFEyfURVyMo2r0bVVwgezg0wtvt9sa3lFV_hAyGGGWx7f_q2Qgfw=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczO5Wdv8RCLvsoYAQSoaSs3Yv1KJjSE6TDn5AJVQd1O9vTuT-sgRGK9SIOfgZRlOCtHoqbNdJ2pZypF5vZScoW_E94-lxWLFMiSQHHziG7IT5yxiiA=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMlKe8rMZzvzP3qn6yKVTs61jncuCtDUWgiEpOg4lmNrICihlbLxOkQdHPS54_6WBwNpR4m2OsAFPpuH6XqGV4moEWNpoCLc5j4sbk9fW65eAskPw=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczPVRKdQ4O9HUiWQSD1gUZasEySygeBs9lAbRXLi7IhwxpDh4hnOjg9PiUzig9FcoUOQxX0xkxz0QeSBRHIRCr9sE7CfvFFhMhLYrPfp9SrctUrYv7E=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczPIRYlGEHLGBeEFmkoB1mu7onnk93XHRUD9isNNnvzv4gqSn0TjkSX3Ji2jXWq-bP_5Y1HspmOeX24ApqWIZ-ZP_nIE_DJn2vlysb3sTbJfOa9a-aU=w1920-h1080"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczOUMC54eAWm77UbTf1MUjMGzBcbTpHDCR8JpZBwcUEen6cUzXXzXFNZ4jFfXshRVgZIIdB0oe5g0NIJzx4dQrpVbywf5KjbNqIXRrIPJ_sFQLn0P9x7Ro4c7j976z2dbeJhNA7UUm6da69bsRQ4kCE=w1884-h1414-s-no-gm?authuser=2"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMZF4oG4sRo7E-YI3DqsI4ZzHa8VzfuHtSogSDcpWxJQ-8Vkqp4-_GdwSaIWueqqQcUhppbKlpp3MwQvD40WOUTcKeDku1jeFt9mP4Vc7WAAxwCEf1rMKv_LMGY1fQ-FQRBx1hCCK49Kwul1fZcilY=w1061-h1414-s-no-gm?authuser=2"></object>
+                    <object data="https://lh3.googleusercontent.com/pw/AP1GczMJAxR-KflW4zZ6llaOBwCQLd5_GWi-Kw68lFlsbhMOxpfxu1-MjfJ1jQXvQozZbKJXuozWpjhKzqLpftL2lKjmfQl35BSjx21LUd5rVF4kdLcoR9U=w1920-h1080"></object> 
+                  </div> -->
